@@ -21,6 +21,6 @@ public class MyServlet2 extends HttpServlet {
 		out.println("<body>");
 		String paramName;
 		paramName = request.getParameter("nombre");
-		out.println("<h1 style='color:purple;'>Bienvenid@, </h1>" + paramName);
+		out.println("<h1 style='color:purple;'>Bienvenid@, "  + paramName + "</h1>" );
 	}
 }
